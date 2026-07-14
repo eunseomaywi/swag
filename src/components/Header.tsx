@@ -6,8 +6,8 @@ import logoPng from '../../swag_logo.png';
 const navItems = [
   { label: 'Home', path: '/', accent: 'blue' },
   { label: 'What is SWAG?', path: '/about', accent: 'green' },
-  { label: 'Member', path: '/members', accent: 'orange' },
-  { label: 'Activity', path: '/activities', accent: 'purple' },
+  { label: 'Members', path: '/members', accent: 'orange' },
+  { label: 'Activities', path: '/activities', accent: 'purple' },
   { label: 'Peer Mentor', path: '/peer-mentor', accent: 'pink' },
   { label: 'Form', path: '/form', accent: 'blue' },
 ];
