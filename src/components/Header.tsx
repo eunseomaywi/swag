@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 import logoPng from '../../swag_logo.png';
 
 const navItems = [
-  { label: 'Home', path: '/', accent: 'blue' },
   { label: 'What is SWAG?', path: '/about', accent: 'green' },
-  { label: 'Members', path: '/members', accent: 'orange' },
-  { label: 'Activities', path: '/activities', accent: 'purple' },
+  { label: 'Member', path: '/members', accent: 'blue' },
+  { label: 'Activity', path: '/activities', accent: 'green' },
   { label: 'Peer Mentor', path: '/peer-mentor', accent: 'pink' },
-  { label: 'Form', path: '/form', accent: 'blue' },
+  { label: 'Form', path: '/form', accent: 'pink' },
+  { label: 'Home', path: '/', accent: 'blue' },
 ];
 
 export function Header() {

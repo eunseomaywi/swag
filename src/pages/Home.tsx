@@ -1,10 +1,6 @@
 import { ArrowDown, ArrowRight, Heart, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { DoodleCard } from '../components/DoodleCard';
-import { PlaceholderImage } from '../components/PlaceholderImage';
 import logoPng from '../../swag_logo.png';
-
-const previews = ['About SWAG', 'Activities', 'Peer Mentoring'];
 
 export function Home() {
   return (
@@ -40,20 +36,7 @@ export function Home() {
         </a>
       </section>
 
-      <section className="preview-grid" id="previews" aria-label="SWAG preview sections">
-        {previews.map((title, index) => (
-          <DoodleCard key={title} accent={index === 0 ? 'blue' : index === 1 ? 'green' : 'purple'}>
-            <PlaceholderImage />
-            <h3>{title}</h3>
-            <div className="placeholder-lines">
-              <span className="line wide" />
-              <span className="line medium" />
-              <span className="line short" />
-            </div>
-            <ArrowRight size={20} aria-hidden="true" />
-          </DoodleCard>
-        ))}
-      </section>
+      <span id="previews" aria-hidden="true" />
     </main>
   );
 }
